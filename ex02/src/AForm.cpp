@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/31 11:51:27 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/31 12:31:30 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/01/31 16:00:10 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,7 +20,7 @@ AForm::AForm(const std::string name, const int sign_grade, const int exec_grade)
 	if (sign_grade > 150 || exec_grade > 150)
 		throw GradeTooLowException();
 	_signature_status = false;
-	std::cout << "AForm " << _name << " created with sign grade " << _sign_grade << " and execution grade " << _exec_grade << std::endl;
+	std::cout << "\033[32mSUCCESS: AForm " << _name << " created with sign grade " << _sign_grade << " and execution grade " << _exec_grade << "\033[0m" << std::endl;
 }
 
 AForm::AForm(const AForm &cpy) : _name(cpy._name), _sign_grade(cpy._sign_grade), _exec_grade(cpy._exec_grade), _signature_status(cpy._signature_status)

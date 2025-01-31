@@ -1,4 +1,4 @@
-NAME = Bureaucrat
+NAME = SoManyForms
 
 CC = c++
 
@@ -8,7 +8,10 @@ SRC_DIR = ./src/
 
 SRC_FILES = main.cpp\
 			Bureaucrat.cpp\
-			Form.cpp
+			AForm.cpp\
+			PresidentialPardonForm.cpp\
+			RobotomyRequestForm.cpp\
+			ShrubberyCreationForm.cpp\
 
 SRC = $(addprefix $(SRC_DIR), $(SRC_FILES))
 

@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 17:27:40 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/27 18:41:46 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/01/31 16:01:12 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -21,6 +21,7 @@ Bureaucrat::Bureaucrat(const std::string name, int grade) : _name(name), _grade(
 
     std::cout << "Bureaucrat Constructor called for " << this->getName() 
               << " with grade " << this->getGrade() << std::endl;
+    std::cout << "\033[32mSUCCESS: Bureaucrat " << _name << " created with grade " << _grade << "\033[0m" << std::endl;
 }
 
 Bureaucrat::Bureaucrat(const Bureaucrat &cpy)
