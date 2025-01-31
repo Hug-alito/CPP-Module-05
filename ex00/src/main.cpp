@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 16:58:16 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/24 18:33:30 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/01/24 18:41:27 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -63,6 +63,9 @@ int main()
     {
         std::cerr << "Error: " << e.what() << std::endl;
     }
+
+	Bureaucrat henri("henri", 42);
+	std::cout << henri << std::endl;
 
 	std::cout << std::endl;
 	std::cout << "On the stack, the prog waits for the end of try block (automatically delete the instance) then goes on the exception caught" << std::endl;

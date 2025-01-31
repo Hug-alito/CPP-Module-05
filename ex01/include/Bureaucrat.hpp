@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 17:27:33 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/27 18:48:02 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/01/27 18:47:27 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,9 @@
 
 # include <string>
 # include <iostream>
+# include "Form.hpp"
+
+class Form;
 
 class Bureaucrat
 {
@@ -29,6 +32,7 @@ class Bureaucrat
 		void				decrementGrade(void);
 		const std::string	getName(void) const;
 		size_t				getGrade(void) const;
+		void				signForm(Form &Form);
 
 		class GradeTooLowException : public std::exception
 		{
