@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/31 23:26:47 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/31 23:48:51 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/03/18 17:24:06 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -71,5 +71,5 @@ AForm *Intern::makeForm(const std::string form_name, const std::string target)
 	}
 
 	std::cout << "Error: Form \"" << form_name << "\" does not exist." << std::endl;
-	return nullptr;
+	return NULL;
 }

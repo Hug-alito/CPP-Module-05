@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/31 11:52:42 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/31 12:26:25 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/03/18 17:20:51 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,6 +15,7 @@
 
 # include <string>
 # include <iostream>
+# include <exception>
 # include "Bureaucrat.hpp"
 
 class Bureaucrat;

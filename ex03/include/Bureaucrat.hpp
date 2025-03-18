@@ -6,7 +6,7 @@
 /*   By: hrischma <hrischma@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2025/01/24 17:27:33 by hrischma          #+#    #+#             */
-/*   Updated: 2025/01/31 15:47:02 by hrischma         ###   ########.fr       */
+/*   Updated: 2025/03/18 17:20:57 by hrischma         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,6 +16,7 @@
 
 # include <string>
 # include <iostream>
+# include <exception>
 # include "AForm.hpp"
 
 class Form;
